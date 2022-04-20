@@ -6,7 +6,8 @@ Software Used:
   - VMD - downloaded from: https://www.ks.uiuc.edu/Research/vmd/ (Version: vmd194a53win64 (1.9.4 - windows 64bit)) - used to visualise atoms in different structures of ice
   - DeepIce - https://github.com/mfulford/DeepIce/blob/master/DeepIce.py - used to train the Deep Neural Network to identify and predict phases
   - Sub networks for DeepIce: https://github.com/mfulford/DeepIce
-
+  - TensorFlow - Python package (Version: )
+  - Keras - Python Package (Version: )
 
 Contributions:
   Bernardo Atolin:
