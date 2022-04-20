@@ -9,6 +9,9 @@ Software Used:
   - TensorFlow - Python package (Version: )
   - Keras - Python Package (Version: )
 
+Instructions: 
+
+
 Contributions:
   Bernardo Atolin:
     - 
