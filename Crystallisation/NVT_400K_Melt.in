@@ -1,0 +1,39 @@
+units           real
+neighbor        2.0 bin
+neigh_modify    delay 5 every 1
+boundary        p p p
+
+atom_style      full
+
+read_restart    Restart2.NVT2_260_Ih2880.*
+
+kspace_style    none
+
+pair_style      sw
+pair_coeff      * * ./mw.sw mW
+
+newton          on
+thermo          1000
+thermo_style    custom step time temp pe ke etotal xlo xhi ylo yhi zlo zhi lx ly lz
+
+timestep        5.0
+
+region          zbot block INF INF INF INF -1 14 side in units box
+region          ztop block INF INF INF INF 14 45 side in units box
+group           water region ztop
+group           ice region zbot
+
+velocity        all create 260 497812 rot yes mom yes dist gaussian
+fix             1 all nvt temp 260.0 260.0 100.0
+run             100000
+unfix           1
+
+fix             1 water nvt temp 400.0 400.0 100.0
+fix             2 ice setforce 0.0 0.0 0.0
+fix             3 all momentum 1 linear 1 1 1
+fix             4 all recenter INIT INIT INIT units box
+
+restart         200000  Restart.NVT_400_Ih2880
+dump            1 all dcd 5000 Trajectory.NVT_400_Ih2880.dcd
+dump_modify     1 flush yes
+run             200000
