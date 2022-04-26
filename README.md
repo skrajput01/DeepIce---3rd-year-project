@@ -23,9 +23,13 @@ Contributions:
         -
         -
     Arnav Avad:
-        -
-        -
-        -  
+        - LAMMPS Simulations (250K Hexagonal and Cubic Ice, 260K HexagonalIce, Cubic Ice and Supercooled Water)
+        - VMD Diffusion Coefficients and Radial Pair Distribution Functions
+        - DeepIce Training and Prediciting for all slabs
+        - Epoch time, Accuracy and Loss data for different training data sets (batch size 10 and batch size 30)
+        - Mismatched training data (trained for hexagonal ice and predicted on cubic ice)
+        - VMD Visuals for all slabs
+        - Poster and Powerpoint Presentation writing and editing
     Shyam Kumar Rajput:
         - VMD visuals (and colouring) for all slabs and reference structures (poster & oral)
         - Slab videos showing variation of QLL for each structure at different temperatures (supplimentary videos for poster & oral)
