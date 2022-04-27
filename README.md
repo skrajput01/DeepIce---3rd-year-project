@@ -17,6 +17,7 @@ Instructions:
 
 
 Contributions:
+
     Bernardo Atolin:
         - LAMMPS simulations (250K Hexagonal and Cubic Ice, 260K Hexagonal Ice, Cubic Ice and Supercooled Water)
         - Radial Pair Distribution Functions
