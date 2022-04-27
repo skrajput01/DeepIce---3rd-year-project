@@ -43,7 +43,9 @@ Contributions:
         - VMD visuals (and colouring) for all slabs and reference structures (poster & oral)
         - Slab videos showing variation of QLL for each structure at different temperatures (supplimentary videos for poster & oral)
         - Evolution of crystallisation of a system (LAMMPS simulation for Ice nucleation)
+        - Hexagonal Ice at 260K - LAMMPS
+        - DeepIce Training at 16 & 13nn.
         - Coloured Slab videos for crystallisation (Poster, Presentation)
         - Colour scheme for temperatures, and structures of ice (poster & oral)
-        - Graph formating and plotting with Python (presentation & oral)
+        - Graph plotting and formatting with Python for no. of water molecules, QLL thickness and Crystallisation evolution (presentation & oral)
         - Poster design & layout (poster)
