@@ -4,7 +4,7 @@
 Training & evaluating a DNN to distinguish multi-phase systems – produced more accurate predictions, at lower cost, than original paper
 
 
-Software Used:
+<b>Software Used:</b>
 - LAMMPS - downloaded from: https://www.lammps.org/ (Version: LAMMPS-64bit-20Sep2021) - used to simulate Molecular Dynamics
 - VMD - downloaded from: https://www.ks.uiuc.edu/Research/vmd/ (Version: vmd194a53win64 (1.9.4 - windows 64bit)) - used to visualise atoms in different structures of ice & water
 - DeepIce - https://github.com/mfulford/DeepIce/blob/master/DeepIce.py - used to train the Deep Neural Network to identify and predict phases
@@ -14,12 +14,12 @@ Software Used:
 - Keras - Python Package (Version: 2.2.4)
 
 
-Additional File:
+<b>Additional File:</b>
 \
 https://emckclac-my.sharepoint.com/:f:/g/personal/stra8927_kcl_ac_uk/EjhArtRL-gdPnLS7GpnNa_AB5-UxhKl0kbIwVZ9KjAQBCA?e=Wh9KD8 
 
 
-Contributions:
+<b>Contributions:</b>
 \
 Shyam Kumar Rajput:
 - VMD visuals (and colouring) for all slabs and reference structures (poster & oral)
