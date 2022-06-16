@@ -18,6 +18,7 @@ Additional File:
 
 
 Contributions:
+\
 Shyam Kumar Rajput:
 - VMD visuals (and colouring) for all slabs and reference structures (poster & oral)
 - Slab videos showing variation of QLL for each structure at different temperatures (supplimentary videos for poster & oral)
