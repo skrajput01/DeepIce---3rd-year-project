@@ -4,12 +4,9 @@ DeepIce – A Neural Network Approach to Water & Ice Systems
 
 
 Software Used:
-
     - LAMMPS - downloaded from: https://www.lammps.org/ (Version: LAMMPS-64bit-20Sep2021) - used to simulate Molecular Dynamics
-    
     - VMD - downloaded from: https://www.ks.uiuc.edu/Research/vmd/ (Version: vmd194a53win64 (1.9.4 - windows 64bit)) - used to visualise atoms in different structures of ice & water
     - DeepIce - https://github.com/mfulford/DeepIce/blob/master/DeepIce.py - used to train the Deep Neural Network to identify and predict phases
-    
     - Sub networks for DeepIce: https://github.com/mfulford/DeepIce
     
     - Python (Version: 3.7.11)
