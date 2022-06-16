@@ -1,6 +1,7 @@
 # DeepIce---3rd-year-project
-DeepIce – A Neural Network Approach to Water & Ice Systems
-- Training & evaluating a DNN to distinguish multi-phase systems – produced more accurate predictions, at lower cost, than original paper
+<b>DeepIce</b> – A Neural Network Approach to Water & Ice Systems
+\
+Training & evaluating a DNN to distinguish multi-phase systems – produced more accurate predictions, at lower cost, than original paper
 
 
 Software Used:
@@ -13,8 +14,9 @@ Software Used:
 - Keras - Python Package (Version: 2.2.4)
 
 
-Additional File: 
-    https://emckclac-my.sharepoint.com/:f:/g/personal/stra8927_kcl_ac_uk/EjhArtRL-gdPnLS7GpnNa_AB5-UxhKl0kbIwVZ9KjAQBCA?e=Wh9KD8 
+Additional File:
+\
+https://emckclac-my.sharepoint.com/:f:/g/personal/stra8927_kcl_ac_uk/EjhArtRL-gdPnLS7GpnNa_AB5-UxhKl0kbIwVZ9KjAQBCA?e=Wh9KD8 
 
 
 Contributions:
